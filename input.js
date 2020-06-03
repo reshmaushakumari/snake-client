@@ -28,6 +28,7 @@ const handleMovement = function(key) {
     send('Move: right');
   }
 }
+
 const handleUserInput = function(key) {
   if ( key === '\u0003' ) {
     // ctrl-c ( end of text )
